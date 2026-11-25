@@ -429,13 +429,17 @@
         "uuid": "6d51dd64-52c3-4336-928d-40ccd81eda86"
       }
     ],
-    "used_designators": "L1-2,JP1,R1-15,Y1,#PWR1-30,C1-29,U1-7,J1",
+    "used_designators": "L1-2,JP1,R1-17,Y1,#PWR1-52,A1-4,C1-37,U1-7,J1-5",
     "variants": []
   },
   "sheets": [
     [
       "6d51dd64-52c3-4336-928d-40ccd81eda86",
       "Root"
+    ],
+    [
+      "07c21a52-eab5-4ff7-8ecd-a96656b5e369",
+      "Stepper Motors"
     ]
   ],
   "text_variables": {},
