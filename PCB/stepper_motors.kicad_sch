@@ -427,13 +427,1054 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Driver_Motor:Pololu_Breakout_A4988"
+		(symbol "Device:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "A1"
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_FET:AO3400A"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AO3400A"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+				(at 5.08 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "N-Channel MOSFET"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AO3400A_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 0.381) (xy 3.683 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AO3400A_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "pnp:AO4407A"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AO4407A"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.aosmd.com/res/datasheets/AO4407A.pdf"
+				(at 5.08 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "-30V Vds, -12A Id, +/-25V Vgs P-Channel MOSFET, SOIC-8 (S=1-3, G=4, D=5-8)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "P-Channel MOSFET"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AO4407A_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0) (xy 1.016 0.381) (xy 1.016 -0.381) (xy 2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 0.381) (xy 3.683 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AO4407A_1_1"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "pnp:TMC2209_StepStick"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "A"
 				(at 7.2233 20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -444,7 +1485,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Pololu_Breakout_A4988"
+			(property "Value" "TMC2209_StepStick"
 				(at 7.2233 17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -467,7 +1508,7 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "https://www.pololu.com/product/2980/pictures"
+			(property "Datasheet" "https://www.analog.com/en/products/tmc2209.html"
 				(at 2.54 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -478,7 +1519,7 @@
 					)
 				)
 			)
-			(property "Description" "Pololu Breakout Board, Stepper Driver A4988"
+			(property "Description" "TMC2209 stepper driver module, StepStick / Pololu 16-pin pinout (standalone: MS1/MS2 set microsteps, RX/TX = PDN_UART)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -489,7 +1530,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "Pololu Breakout Board Stepper Driver A4988"
+			(property "ki_keywords" "TMC2209 StepStick stepper driver module"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -511,7 +1552,7 @@
 					)
 				)
 			)
-			(symbol "Pololu_Breakout_A4988_0_1"
+			(symbol "TMC2209_StepStick_0_1"
 				(rectangle
 					(start -7.62 15.24)
 					(end 10.16 -17.78)
@@ -524,7 +1565,7 @@
 					)
 				)
 			)
-			(symbol "Pololu_Breakout_A4988_1_1"
+			(symbol "TMC2209_StepStick_1_1"
 				(pin power_in line
 					(at 0 -20.32 90)
 					(length 2.54)
@@ -1070,6 +2111,157 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 124.46 83.82)
+		(end 213.36 162.56)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "a431bc77-8b07-43ee-9c9f-cf0945725601")
+	)
+	(text "MOTOR SUPPLY SOFT-START SWITCH"
+		(exclude_from_sim no)
+		(at 127 88.9 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "475ba7dd-f83e-46db-931a-d9dd0a63e2fa")
+	)
+	(text "VM_EN (RP2040 GPIO23) high = motor power on. Firmware: enable only once\nUSB PD has reached 20 V (PG low), keep drivers disabled until VM is up.\nC38 ramps VM at ~3 V/ms -> ~1.3 A inrush into 4x 100 uF.\nR27/R28 limit Q3 Vgs to ~13.6 V at 20 V (AO4407A max +/-25 V)."
+		(exclude_from_sim no)
+		(at 127 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a12aeaeb-2a5f-49c4-a7b5-4c333cf7bf54")
 	)
 	(junction
 		(at 29.21 177.8)
@@ -1082,6 +2274,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "214c6e27-944c-4f91-ad93-134d0278e3cb")
+	)
+	(junction
+		(at 172.72 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25c80f01-a4ef-4b75-baff-f507b72f1c89")
 	)
 	(junction
 		(at 39.37 148.59)
@@ -1108,10 +2306,22 @@
 		(uuid "44d65665-6581-47de-9256-a524c32456e6")
 	)
 	(junction
+		(at 162.56 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45cf4f62-edab-4c38-a788-bb64beb7efe7")
+	)
+	(junction
 		(at 215.9 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50c31da7-a42f-4d7f-80fb-726ecfb41acf")
+	)
+	(junction
+		(at 152.4 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86e3e425-ca37-4f18-b343-0551efdb0d46")
 	)
 	(junction
 		(at 29.21 50.8)
@@ -1166,6 +2376,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce045aea-1d0b-40f9-93f3-41295ee23d56")
+	)
+	(junction
+		(at 152.4 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1e82a97-cc1e-430f-b0c8-18bc373bd428")
+	)
+	(junction
+		(at 142.24 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea45c1cf-7b17-464e-8779-4a8a46b63639")
+	)
+	(junction
+		(at 142.24 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa8d3f79-929a-4ee5-b445-63d10fe14f50")
 	)
 	(no_connect
 		(at 29.21 33.02)
@@ -1224,6 +2452,16 @@
 			(type default)
 		)
 		(uuid "00a07287-06ca-48ea-8479-4bf5b20dfbae")
+	)
+	(wire
+		(pts
+			(xy 152.4 109.22) (xy 152.4 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0282cdb3-3f68-4f7f-b94f-bb62fd49cfe9")
 	)
 	(wire
 		(pts
@@ -1287,6 +2525,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 114.3) (xy 152.4 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "208cb978-7890-492e-a638-67e6299d8796")
+	)
+	(wire
+		(pts
 			(xy 200.66 49.53) (xy 200.66 52.07)
 		)
 		(stroke
@@ -1304,6 +2552,26 @@
 			(type default)
 		)
 		(uuid "23cb9761-eb29-45ae-9298-3aed99c8aa09")
+	)
+	(wire
+		(pts
+			(xy 162.56 114.3) (xy 152.4 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a200feb-c5f3-4614-bd48-ef9cecf75505")
+	)
+	(wire
+		(pts
+			(xy 162.56 109.22) (xy 162.56 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bfc0a64-29e2-41a5-81fe-31a3e6ab0060")
 	)
 	(wire
 		(pts
@@ -1327,6 +2595,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 132.08) (xy 142.24 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32ac3334-c2e7-4188-985f-898073676ff5")
+	)
+	(wire
+		(pts
 			(xy 16.51 113.03) (xy 29.21 113.03)
 		)
 		(stroke
@@ -1334,6 +2612,26 @@
 			(type default)
 		)
 		(uuid "354ad020-07ab-423d-aee3-f65192c69b5e")
+	)
+	(wire
+		(pts
+			(xy 152.4 124.46) (xy 152.4 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "359f17fe-5b0b-4b5a-bfee-4d5acba5b676")
+	)
+	(wire
+		(pts
+			(xy 129.54 132.08) (xy 133.35 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3757d891-1118-4fec-afca-cc14d7837e0d")
 	)
 	(wire
 		(pts
@@ -1407,6 +2705,26 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 101.6) (xy 182.88 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4726a5a5-25c5-4915-aa73-d2a51d0ade9d")
+	)
+	(wire
+		(pts
+			(xy 152.4 111.76) (xy 152.4 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48446d82-af85-422b-b6fe-2ce888a7cabc")
+	)
+	(wire
+		(pts
 			(xy 26.67 100.33) (xy 29.21 100.33)
 		)
 		(stroke
@@ -1454,6 +2772,16 @@
 			(type default)
 		)
 		(uuid "5a2a62b9-b5ab-4e46-bbd6-3ec3723c772a")
+	)
+	(wire
+		(pts
+			(xy 162.56 101.6) (xy 172.72 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cc98566-be70-4ec2-ae6d-11ac6a24b874")
 	)
 	(wire
 		(pts
@@ -1534,6 +2862,16 @@
 			(type default)
 		)
 		(uuid "76c6821b-2b9e-41d1-b26f-2ab1da95c419")
+	)
+	(wire
+		(pts
+			(xy 142.24 132.08) (xy 144.78 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "779e29b4-ac19-420b-bd3d-1c4c854c0d70")
 	)
 	(wire
 		(pts
@@ -1697,6 +3035,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 101.6) (xy 142.24 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2d165ae-93b4-4a3b-8296-6400a72dcf0c")
+	)
+	(wire
+		(pts
 			(xy 52.07 19.05) (xy 57.15 19.05)
 		)
 		(stroke
@@ -1704,6 +3052,16 @@
 			(type default)
 		)
 		(uuid "b5b2a759-f2e6-44c4-b7ed-1bc7c5f17e49")
+	)
+	(wire
+		(pts
+			(xy 157.48 101.6) (xy 162.56 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5c53cf3-69f2-4007-98ac-2620b2e50277")
 	)
 	(wire
 		(pts
@@ -1724,6 +3082,16 @@
 			(type default)
 		)
 		(uuid "b77b89ee-7fd4-4bdc-9c71-9f9f9bba81b3")
+	)
+	(wire
+		(pts
+			(xy 142.24 111.76) (xy 152.4 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7ab31e6-0617-4409-be04-ef45120fd16f")
 	)
 	(wire
 		(pts
@@ -1927,6 +3295,26 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 101.6) (xy 147.32 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2eac05a-233c-4b6c-9973-4765d58ef934")
+	)
+	(wire
+		(pts
+			(xy 142.24 109.22) (xy 142.24 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3c8ec20-9c06-41fb-a122-dd2e853a5bea")
+	)
+	(wire
+		(pts
 			(xy 44.45 191.77) (xy 41.91 191.77)
 		)
 		(stroke
@@ -1990,6 +3378,54 @@
 		(uuid "08eb2f70-2a92-4458-ba9e-54d4c617aaba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 16.4356 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "VM_EN"
+		(shape input)
+		(at 129.54 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2b453113-abd8-4bd0-996e-b6de04123893")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.54 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "VBUS"
+		(shape input)
+		(at 134.62 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "30ba5ae5-73a3-4609-9550-8f8c3533e4da")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.62 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2105,7 +3541,7 @@
 			)
 		)
 	)
-	(global_label "VBUS"
+	(global_label "VM"
 		(shape input)
 		(at 215.9 15.24 0)
 		(fields_autoplaced yes)
@@ -2129,7 +3565,31 @@
 			)
 		)
 	)
-	(global_label "VBUS"
+	(global_label "VM"
+		(shape input)
+		(at 182.88 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6a99fc2c-0522-41e3-af63-3b498f3e7e12")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.88 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VM"
 		(shape input)
 		(at 44.45 140.97 0)
 		(fields_autoplaced yes)
@@ -2153,7 +3613,7 @@
 			)
 		)
 	)
-	(global_label "VBUS"
+	(global_label "VM"
 		(shape input)
 		(at 44.45 13.97 0)
 		(fields_autoplaced yes)
@@ -2333,7 +3793,7 @@
 			)
 		)
 	)
-	(global_label "VBUS"
+	(global_label "VM"
 		(shape input)
 		(at 44.45 76.2 0)
 		(fields_autoplaced yes)
@@ -2462,6 +3922,98 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 142.24 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1304b3c7-e6a6-4e12-a099-21203266e3bb")
+		(property "Reference" "R27"
+			(at 139.7 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 139.7 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 142.24 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 142.24 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25741"
+			(at 142.24 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b03ce65a-e90c-40d5-b524-8a2a5e9397b0")
+		)
+		(pin "2"
+			(uuid "f30ab75a-9621-4761-839d-3d2009efdc53")
+		)
+		(instances
+			(project "pnp"
+				(path "/6d51dd64-52c3-4336-928d-40ccd81eda86/07c21a52-eab5-4ff7-8ecd-a96656b5e369"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 35.56 148.59 270)
 		(unit 1)
@@ -2493,7 +4045,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Module:Pololu_Breakout-16_15.2x20.3mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 31.75 149.5552 0)
 			(hide yes)
 			(show_name no)
@@ -2526,6 +4078,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C307331"
+			(at 35.56 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "98159cd0-a2d0-4d27-be22-8bb9dbc7d072")
 		)
@@ -2542,7 +4105,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Device:C_Polarized")
 		(at 219.71 20.32 90)
 		(unit 1)
 		(body_style 1)
@@ -2562,7 +4125,7 @@
 				)
 			)
 		)
-		(property "Value" "100uF  (35v)"
+		(property "Value" "100uF 35V"
 			(at 219.71 17.526 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2572,7 +4135,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 223.52 19.3548 0)
 			(hide yes)
 			(show_name no)
@@ -2594,7 +4157,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Polarized capacitor"
+			(at 219.71 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C106694"
 			(at 219.71 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -2933,7 +4507,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Driver_Motor:Pololu_Breakout_A4988")
+		(lib_id "pnp:TMC2209_StepStick")
 		(at 39.37 102.87 0)
 		(unit 1)
 		(body_style 1)
@@ -2978,7 +4552,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.pololu.com/product/2980/pictures"
+		(property "Datasheet" "https://www.analog.com/en/products/tmc2209.html"
 			(at 41.91 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -2989,7 +4563,7 @@
 				)
 			)
 		)
-		(property "Description" "Pololu Breakout Board, Stepper Driver A4988"
+		(property "Description" "TMC2209 stepper driver module, StepStick / Pololu 16-pin pinout (standalone: MS1/MS2 set microsteps, RX/TX = PDN_UART)"
 			(at 39.37 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3058,7 +4632,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Driver_Motor:Pololu_Breakout_A4988")
+		(lib_id "pnp:TMC2209_StepStick")
 		(at 39.37 167.64 0)
 		(unit 1)
 		(body_style 1)
@@ -3103,7 +4677,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.pololu.com/product/2980/pictures"
+		(property "Datasheet" "https://www.analog.com/en/products/tmc2209.html"
 			(at 41.91 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -3114,7 +4688,7 @@
 				)
 			)
 		)
-		(property "Description" "Pololu Breakout Board, Stepper Driver A4988"
+		(property "Description" "TMC2209 stepper driver module, StepStick / Pololu 16-pin pinout (standalone: MS1/MS2 set microsteps, RX/TX = PDN_UART)"
 			(at 39.37 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -3450,7 +5024,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 82.55 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -3473,6 +5047,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 82.55 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2908602"
 			(at 82.55 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -3577,6 +5162,96 @@
 			(project "pnp"
 				(path "/6d51dd64-52c3-4336-928d-40ccd81eda86/07c21a52-eab5-4ff7-8ecd-a96656b5e369"
 					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 137.16 132.08 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "49893296-443d-4f46-8e8a-d98e856c6e5e")
+		(property "Reference" "R29"
+			(at 137.16 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 137.16 130.175 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 137.16 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 137.16 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 137.16 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a568c517-2f6d-400b-89c3-d24a7a6acd16")
+		)
+		(pin "2"
+			(uuid "264d60d4-b578-463e-8365-d36265b0077d")
+		)
+		(instances
+			(project "pnp"
+				(path "/6d51dd64-52c3-4336-928d-40ccd81eda86/07c21a52-eab5-4ff7-8ecd-a96656b5e369"
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -3817,6 +5492,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 152.4 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "72d5f50a-6ae8-4c3a-92df-60043073b898")
+		(property "Reference" "#PWR092"
+			(at 152.4 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "65ea2660-d8b4-4d95-ab31-585a05bc3d5f")
+		)
+		(instances
+			(project "pnp"
+				(path "/6d51dd64-52c3-4336-928d-40ccd81eda86/07c21a52-eab5-4ff7-8ecd-a96656b5e369"
+					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 207.01 22.86 270)
 		(unit 1)
@@ -3848,7 +5600,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Module:Pololu_Breakout-16_15.2x20.3mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 203.2 23.8252 0)
 			(hide yes)
 			(show_name no)
@@ -3871,6 +5623,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 207.01 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C307331"
 			(at 207.01 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -3930,7 +5693,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 259.08 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -3963,6 +5726,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2908602"
+			(at 259.08 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "12b3e217-b5ea-4388-bf95-8cf721618200")
 		)
@@ -3985,7 +5759,102 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Transistor_FET:AO3400A")
+		(at 149.86 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "842184a4-75d7-4bd7-8ac4-06ffa7c14197")
+		(property "Reference" "Q4"
+			(at 156.21 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 156.21 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 149.86 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(at 149.86 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 149.86 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C20917"
+			(at 149.86 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "931baf4e-3700-4772-afa3-23e79eab236c")
+		)
+		(pin "2"
+			(uuid "4fd2291d-afa1-4625-9a54-bbbb1ceaa7bc")
+		)
+		(pin "3"
+			(uuid "c83045b9-648b-4fa6-84a4-a62aec8884e5")
+		)
+		(instances
+			(project "pnp"
+				(path "/6d51dd64-52c3-4336-928d-40ccd81eda86/07c21a52-eab5-4ff7-8ecd-a96656b5e369"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
 		(at 48.26 81.28 90)
 		(unit 1)
 		(body_style 1)
@@ -4005,7 +5874,7 @@
 				)
 			)
 		)
-		(property "Value" "100uF  (35v)"
+		(property "Value" "100uF 35V"
 			(at 48.26 78.486 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4015,7 +5884,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 52.07 80.3148 0)
 			(hide yes)
 			(show_name no)
@@ -4037,7 +5906,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Polarized capacitor"
+			(at 48.26 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C106694"
 			(at 48.26 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4173,7 +6053,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Module:Pololu_Breakout-16_15.2x20.3mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 31.75 22.5552 0)
 			(hide yes)
 			(show_name no)
@@ -4206,6 +6086,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C307331"
+			(at 35.56 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2f577b46-b87a-48ec-9d20-3c0c2cf5773a")
 		)
@@ -4216,6 +6107,98 @@
 			(project "pnp"
 				(path "/6d51dd64-52c3-4336-928d-40ccd81eda86/07c21a52-eab5-4ff7-8ecd-a96656b5e369"
 					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 142.24 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9e9306a8-e850-462a-926e-8a4c99aec325")
+		(property "Reference" "R30"
+			(at 139.7 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 139.7 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 142.24 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 142.24 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 142.24 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cf824e4c-b49d-424f-8640-45dcf9a90db8")
+		)
+		(pin "2"
+			(uuid "7edf326b-bf34-48e7-b98c-9ef02c2f74ec")
+		)
+		(instances
+			(project "pnp"
+				(path "/6d51dd64-52c3-4336-928d-40ccd81eda86/07c21a52-eab5-4ff7-8ecd-a96656b5e369"
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -4300,6 +6283,114 @@
 		)
 	)
 	(symbol
+		(lib_id "pnp:AO4407A")
+		(at 152.4 104.14 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a7a984b9-8b49-4afc-8ac3-067ff79c3da3")
+		(property "Reference" "Q3"
+			(at 152.4 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AO4407A"
+			(at 152.4 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 152.4 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.aosmd.com/res/datasheets/AO4407A.pdf"
+			(at 152.4 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-30V Vds, -12A Id, +/-25V Vgs P-Channel MOSFET, SOIC-8 (S=1-3, G=4, D=5-8)"
+			(at 152.4 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C16072"
+			(at 152.4 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f3a08204-a582-4b66-98ee-c7ed9909299e")
+		)
+		(pin "2"
+			(uuid "2f5a51e5-5743-41f4-944e-8d0b50743a3a")
+		)
+		(pin "3"
+			(uuid "9a9dd717-bd45-4628-a782-4309bbcdf5f3")
+		)
+		(pin "4"
+			(uuid "da8a8abd-5a9b-4815-8efd-697a9c38a81e")
+		)
+		(pin "5"
+			(uuid "73dfa5b2-8624-4b6f-933b-b38ae85b0304")
+		)
+		(pin "6"
+			(uuid "cf237792-9520-4493-86b7-d053f2f9fe5e")
+		)
+		(pin "7"
+			(uuid "73e432d5-42ad-47a5-aa99-ff4cf9ba1f03")
+		)
+		(pin "8"
+			(uuid "037c9845-c262-4679-8fd2-d421a062a004")
+		)
+		(instances
+			(project "pnp"
+				(path "/6d51dd64-52c3-4336-928d-40ccd81eda86/07c21a52-eab5-4ff7-8ecd-a96656b5e369"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 35.56 83.82 270)
 		(unit 1)
@@ -4331,7 +6422,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Module:Pololu_Breakout-16_15.2x20.3mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 31.75 84.7852 0)
 			(hide yes)
 			(show_name no)
@@ -4354,6 +6445,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 35.56 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C307331"
 			(at 35.56 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -4536,6 +6638,98 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 162.56 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b2ee3c92-48a6-4a6d-915d-785f5da5b039")
+		(property "Reference" "C38"
+			(at 165.1 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF 50V"
+			(at 165.1 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 162.56 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 162.56 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C307331"
+			(at 162.56 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b4e5743a-eff2-41dd-8365-cd34aa272108")
+		)
+		(pin "2"
+			(uuid "95d5887e-3894-4a35-80b6-2e688f3f7443")
+		)
+		(instances
+			(project "pnp"
+				(path "/6d51dd64-52c3-4336-928d-40ccd81eda86/07c21a52-eab5-4ff7-8ecd-a96656b5e369"
+					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
 		(at 82.55 102.87 0)
 		(unit 1)
@@ -4569,7 +6763,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 82.55 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -4592,6 +6786,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 82.55 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2908602"
 			(at 82.55 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -4657,7 +6862,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 82.55 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -4680,6 +6885,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 82.55 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2908602"
 			(at 82.55 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -4790,7 +7006,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Driver_Motor:Pololu_Breakout_A4988")
+		(lib_id "pnp:TMC2209_StepStick")
 		(at 39.37 40.64 0)
 		(unit 1)
 		(body_style 1)
@@ -4835,7 +7051,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.pololu.com/product/2980/pictures"
+		(property "Datasheet" "https://www.analog.com/en/products/tmc2209.html"
 			(at 41.91 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -4846,7 +7062,7 @@
 				)
 			)
 		)
-		(property "Description" "Pololu Breakout Board, Stepper Driver A4988"
+		(property "Description" "TMC2209 stepper driver module, StepStick / Pololu 16-pin pinout (standalone: MS1/MS2 set microsteps, RX/TX = PDN_UART)"
 			(at 39.37 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -4915,7 +7131,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Device:C_Polarized")
 		(at 48.26 146.05 90)
 		(unit 1)
 		(body_style 1)
@@ -4935,7 +7151,7 @@
 				)
 			)
 		)
-		(property "Value" "100uF  (35v)"
+		(property "Value" "100uF 35V"
 			(at 48.26 143.256 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4945,7 +7161,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 52.07 145.0848 0)
 			(hide yes)
 			(show_name no)
@@ -4967,7 +7183,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Polarized capacitor"
+			(at 48.26 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C106694"
 			(at 48.26 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -4994,7 +7221,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Device:C_Polarized")
 		(at 48.26 19.05 90)
 		(unit 1)
 		(body_style 1)
@@ -5014,7 +7241,7 @@
 				)
 			)
 		)
-		(property "Value" "100uF  (35v)"
+		(property "Value" "100uF 35V"
 			(at 48.26 16.256 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5024,7 +7251,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 52.07 18.0848 0)
 			(hide yes)
 			(show_name no)
@@ -5046,7 +7273,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Polarized capacitor"
+			(at 48.26 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C106694"
 			(at 48.26 19.05 0)
 			(hide yes)
 			(show_name no)
@@ -5067,6 +7305,98 @@
 			(project "pnp"
 				(path "/6d51dd64-52c3-4336-928d-40ccd81eda86/07c21a52-eab5-4ff7-8ecd-a96656b5e369"
 					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 152.4 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d99ca772-2bf2-49f5-96e0-7ae095918656")
+		(property "Reference" "R28"
+			(at 154.94 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k"
+			(at 154.94 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 152.4 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 152.4 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25792"
+			(at 152.4 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f47e7de0-e753-42a6-8be2-c44a02a12557")
+		)
+		(pin "2"
+			(uuid "064f7020-a1b3-49dd-ab5a-ad1bd130591f")
+		)
+		(instances
+			(project "pnp"
+				(path "/6d51dd64-52c3-4336-928d-40ccd81eda86/07c21a52-eab5-4ff7-8ecd-a96656b5e369"
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -5229,7 +7559,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Driver_Motor:Pololu_Breakout_A4988")
+		(lib_id "pnp:TMC2209_StepStick")
 		(at 210.82 41.91 0)
 		(unit 1)
 		(body_style 1)
@@ -5274,7 +7604,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.pololu.com/product/2980/pictures"
+		(property "Datasheet" "https://www.analog.com/en/products/tmc2209.html"
 			(at 213.36 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -5285,7 +7615,7 @@
 				)
 			)
 		)
-		(property "Description" "Pololu Breakout Board, Stepper Driver A4988"
+		(property "Description" "TMC2209 stepper driver module, StepStick / Pololu 16-pin pinout (standalone: MS1/MS2 set microsteps, RX/TX = PDN_UART)"
 			(at 210.82 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -5348,6 +7678,83 @@
 			(project "pnp"
 				(path "/6d51dd64-52c3-4336-928d-40ccd81eda86/07c21a52-eab5-4ff7-8ecd-a96656b5e369"
 					(reference "A4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 172.72 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ee3ff2db-e1c4-4119-9c0c-0bc3a5430ed1")
+		(property "Reference" "#FLG05"
+			(at 172.72 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 172.72 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 172.72 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "421bcb6f-11a9-4cb0-84f7-fdbea2b77863")
+		)
+		(instances
+			(project "pnp"
+				(path "/6d51dd64-52c3-4336-928d-40ccd81eda86/07c21a52-eab5-4ff7-8ecd-a96656b5e369"
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -5426,6 +7833,83 @@
 			(project "pnp"
 				(path "/6d51dd64-52c3-4336-928d-40ccd81eda86/07c21a52-eab5-4ff7-8ecd-a96656b5e369"
 					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 142.24 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f3c601b0-cb2e-475f-b493-25c53bd8f0af")
+		(property "Reference" "#PWR093"
+			(at 142.24 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 142.24 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a1c4cb96-f4dc-4fb4-a3e5-bc27eb7eaaa0")
+		)
+		(instances
+			(project "pnp"
+				(path "/6d51dd64-52c3-4336-928d-40ccd81eda86/07c21a52-eab5-4ff7-8ecd-a96656b5e369"
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)

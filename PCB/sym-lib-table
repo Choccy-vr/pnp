@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "pnp")(type "KiCad")(uri "${KIPRJMOD}/pnp.kicad_sym")(options "")(descr "pnp project symbols: TMC2209_StepStick, AO4407A"))
+)

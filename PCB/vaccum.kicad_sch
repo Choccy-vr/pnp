@@ -1410,7 +1410,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-20_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 34.29 95.758 90)
 			(hide yes)
 			(show_name no)
@@ -1433,6 +1433,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 34.29 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25076"
 			(at 34.29 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -1513,6 +1524,17 @@
 			)
 		)
 		(property "Description" "40V 1A Schottky Diode, SMA"
+			(at 57.15 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2480"
 			(at 57.15 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -1884,7 +1906,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-20_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 38.862 44.45 90)
 			(hide yes)
 			(show_name no)
@@ -1907,6 +1929,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 40.64 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
 			(at 40.64 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -1966,7 +1999,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-20_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 40.132 97.79 90)
 			(hide yes)
 			(show_name no)
@@ -1989,6 +2022,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 41.91 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
 			(at 41.91 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -2048,7 +2092,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-20-1EP_5x5mm_P0.65mm_EP3.35x3.35mm"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 55.88 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -2071,6 +2115,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 55.88 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2908600"
 			(at 55.88 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -2128,7 +2183,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-20_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 33.02 42.418 90)
 			(hide yes)
 			(show_name no)
@@ -2151,6 +2206,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 33.02 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25076"
 			(at 33.02 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -2236,6 +2302,17 @@
 			)
 		)
 		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 50.8 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C20917"
 			(at 50.8 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -2334,6 +2411,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C20917"
+			(at 52.07 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "7d28ae2a-c3f9-4b7d-bacb-a790e247624c")
 		)
@@ -2386,7 +2474,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-20-1EP_5x5mm_P0.65mm_EP3.35x3.35mm"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 57.15 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -2409,6 +2497,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 57.15 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2908600"
 			(at 57.15 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -2489,6 +2588,17 @@
 			)
 		)
 		(property "Description" "40V 1A Schottky Diode, SMA"
+			(at 58.42 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2480"
 			(at 58.42 85.09 0)
 			(hide yes)
 			(show_name no)
