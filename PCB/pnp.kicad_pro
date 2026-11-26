@@ -28,7 +28,24 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "lib_symbol_mismatch|2108200|419100|e2489e13-90f1-40c0-8ef6-27488e1cd952|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|393700|1028700|2bcd5620-9ffd-4f61-970b-c977871b02a9|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|393700|1676400|34eb1bd1-cda5-4571-9894-dc40057606d9|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|393700|406400|d2a4db12-4e65-4853-8a27-e04374a709bc|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -429,7 +446,7 @@
         "uuid": "6d51dd64-52c3-4336-928d-40ccd81eda86"
       }
     ],
-    "used_designators": "SW1-3,L1-2,JP1,R1-20,Y1,#PWR1-60,A1-4,C1-37,U1-7,J1-9",
+    "used_designators": "H1-4,SW1-3,L1-2,JP1,R1-25,Y1,#PWR1-70,D1-3,A1-4,C1-37,Q1-3,U1-7,J1-15",
     "variants": []
   },
   "sheets": [
@@ -440,6 +457,10 @@
     [
       "07c21a52-eab5-4ff7-8ecd-a96656b5e369",
       "Stepper Motors"
+    ],
+    [
+      "30bd7ef6-6042-4e5d-95f7-173c58395c3f",
+      "Vaccum"
     ]
   ],
   "text_variables": {},
