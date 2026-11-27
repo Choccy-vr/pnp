@@ -19474,7 +19474,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "easyeda2kicad:SW-SMD_L3.9-W3.0-P4.45"
 			(at 335.28 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -19507,7 +19507,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C720477"
 			(at 335.28 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -25050,7 +25050,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "easyeda2kicad:SW-SMD_L3.9-W3.0-P4.45"
 			(at 125.73 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -25083,7 +25083,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C720477"
 			(at 125.73 104.14 0)
 			(hide yes)
 			(show_name no)
